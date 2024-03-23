@@ -1,0 +1,259 @@
+*{
+    margin: 0;
+}
+
+html, body {
+    height: 99.85%;
+}
+
+.wrap{
+    min-height: 99.85%;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+}
+
+header {
+    background-color: #D9D9D9;
+    display: flex;
+    padding-left: 122px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    flex-wrap: wrap;
+}
+
+header h1 {
+    font-family: 'Roboto Mono', monospace;
+    height: 60px;
+    font-size: 48px;
+    padding-right: 20px;
+}
+
+header p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    padding-top: 25px;
+}
+
+.container {
+    margin-top: 23px;
+    margin-left: 122px;
+    margin-right: 122px; 
+    padding-bottom: 56px;
+}
+
+.container h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 35px;
+    padding-bottom: 10px;
+}
+
+.container h3 {
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.container .subtitle {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.topic p {
+    width: 345px;
+
+}
+
+.topics {
+    margin-top: 74px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+footer {
+    background-color: #D9D9D9;
+    padding: 19px 122px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: -56px;
+    
+}
+
+footer a {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+
+.statia p {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    /* text-indent: 16px; */
+    line-height: 1.5;
+}
+
+/* .statia .noti {
+    text-indent: 0;
+} */
+
+.statia img {
+    max-width: 60%;
+}
+
+.statia a {
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    background-color: lightgrey;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.tomain a{
+    font-size: 15px;
+    padding: 0;
+    border-radius: 0;
+    background-color: white;
+    color: black;
+    text-decoration: underline;
+}
+
+.statia ul, ol {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.topic {
+    margin-bottom: 10px;
+}
+
+.button {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.button a:hover {
+    background-color: rgb(85, 192, 228);
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(89, 202, 240);
+    text-decoration: underline;
+}
+
+li {
+    padding-bottom: 10px;
+}
+
+.btn-up {
+    position: fixed;
+    background-color: lightgrey;
+    right: 20px;
+    bottom: 30px;
+    border-radius: 25px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: opacity 0.15s ease-in-out, transform 0.3s ease-in-out;
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.btn-up_hide {
+    display: none;
+}
+
+.btn-up_hiding {
+    opacity: 0;
+    transform: translateY(100px);
+}
+
+.btn-up-icon {
+    width: 40px;
+    height: 40px;
+    fill: currentcolor;
+}
+
+header a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.sources a {
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    background-color: white;
+    padding: 0;
+}
+
+.sources a:hover {
+    text-decoration: underline;
+}
+
+iframe {
+    width: 560px;
+    height: 315px;
+}
+
+@media (hover: hover) and (pointer: fine) {
+    .btn-up:hover {
+      background-color: grey;
+    }
+}
+
+@media screen and (max-width:1624px) {
+    .topic:nth-last-child(1) {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media screen and (max-width:950px) {
+    .topic:nth-last-child(1) {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .statia img {
+        max-width: 100%;
+    }
+
+    iframe {
+        width: 100%;
+    }
+
+    header {
+        padding-left: 10px;
+    }
+
+    footer {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}

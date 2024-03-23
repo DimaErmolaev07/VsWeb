@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Visual Studio Code для вёрстки</title>
+  </head>
+  <body>
+    <div class="wrap">
+      <header>
+        <a href="index.html">
+          <h1>VSWeb</h1>
+        </a>
+        <p>VS Code для вёрстки</p>
+      </header>
+      <section class="container statia">
+        <h2>Горячие клавиши VS Code</h2>
+        <p><span class="bold">Ctrl + F</span> – вызвать поиск</p>
+        <p>
+          <span class="bold">Ctrl + /</span> – закомментировать одну или
+          несколько строк
+        </p>
+        <p>
+          <span class="bold">Shift + Alt + ↓ / ↑</span> – дублирует строку на
+          которой установлен курсор
+        </p>
+        <p>
+          <span class="bold">Ctrl + Shift + \</span> – перейти к парной скобке
+        </p>
+        <p>
+          <span class="bold">F2</span> – дает возможность переименовать
+          переменную во всем документе
+        </p>
+        <p>
+          <span class="bold">Shift + Alt + F</span> – отформатировать документ –
+          работает совместно с Prettier - Code formatter или другими подобными
+          расширениями
+        </p>
+        <p>
+          <span class="bold">F12</span> – перекинет к объявлению переменной даже
+          если это в другом файле
+        </p>
+        <p>
+          <span class="bold">Alt + Z</span> – включить / выключить перенос слов
+        </p>
+        <p>
+          <span class="bold">Alt + ↑ / ↓</span> – меняет местами выделенный
+          участок кода или строку с соседней строкой
+        </p>
+        <p>
+          <span class="bold">Ctrl + D</span> – множественной редактирование
+          одинаковых структур кода, каждый раз нажимая команду вы присоединяете
+          к редактированию еще одну похожую структуру
+        </p>
+        <p><span class="bold">Ctrl + P</span> – палитра команд</p>
+      </section>
+      <svg xmlns="http://www.w3.org/2000/svg" style="display: none">
+        <symbol id="arrow-up-short" viewBox="0 0 16 16">
+          <path
+            fill-rule="evenodd"
+            d="M8 12a.5.5 0 0 0 .5-.5V5.707l2.146 2.147a.5.5 0 0 0 .708-.708l-3-3a.5.5 0 0 0-.708 0l-3 3a.5.5 0 1 0 .708.708L7.5 5.707V11.5a.5.5 0 0 0 .5.5z"
+          />
+        </symbol>
+      </svg>
+      <div class="btn-up btn-up_hide">
+        <svg
+          class="btn-up-icon"
+          role="img"
+          aria-label="Прокрутить страницу к началу"
+        >
+          <use xlink:href="#arrow-up-short"></use>
+        </svg>
+      </div>
+      <script src="knopka.js"></script>
+    </div>
+    <footer>
+      <p>© Ермолаев Дмитрий, 2023</p>
+      <a href="inf.html">Источники</a>
+    </footer>
+  </body>
+</html>

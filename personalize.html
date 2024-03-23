@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Visual Studio Code для вёрстки</title>
+  </head>
+  <body>
+    <div class="wrap">
+      <header>
+        <a href="index.html">
+          <h1>VSWeb</h1>
+        </a>
+        <p>VS Code для вёрстки</p>
+      </header>
+      <section class="container statia">
+        <h2>Настраиваем VS Code под себя</h2>
+        <p>
+          Для более комфортной работы над проектами редактор содержит массу
+          пользовательских настроек от возможности увеличить или уменьшить шрифт
+          до включения автоматического сохранения файлов. Попасть в панель можно
+          двумя способами:
+        </p>
+        <ul>
+          <li><span class="bold">File – Preferences – Settings</span></li>
+          <li>
+            <span class="bold">Ctrl + Shift + p</span> – откроется поисковая
+            строка где вначале вы увидите Preferences: Open User Settings
+          </li>
+        </ul>
+        <img src="img/personalize1.jpg" alt="шаг 1" />
+        <p>Рассмотрим некоторые полезные настройки</p>
+        <ul>
+          <li>
+            <span class="bold">Auto Save</span> – можно выбрать автоматическое
+            сохранение, не сохранять автоматически, сохранять при смене или
+            потере фокуса.
+          </li>
+          <li>
+            <span class="bold">Font Size</span> – размер шрифта в пикселях.
+          </li>
+          <li><span class="bold">Line Height</span> – высота строки.</li>
+          <li>
+            <span class="bold">Console: Font Size</span> – размер шрифта для
+            терминала.
+          </li>
+          <li><span class="bold">Font Family</span> – выбор шрифта.</li>
+          <li>
+            <span class="bold">Tab Size</span> – можно задать количество
+            пробелов в табуляции.
+          </li>
+          <li>
+            <span class="bold">Open Files in New Window</span> – позволяет
+            настраивать создание файлов в новом окне или табе.
+          </li>
+          <li>
+            <span class="bold">Word Wrap</span> – управлением тем, как следует
+            переносить строки – по ширине окна, не переносить и т.д.
+          </li>
+          <li>
+            <span class="bold">Format On Paste</span> – определяет, будет ли
+            редактор автоматически форматировать вставленный код.
+          </li>
+          <li>
+            <span class="bold">Minimap</span> – включить или отключить
+            миникарту.
+          </li>
+          <li>
+            <span class="bold">Confirm Delete</span> – убрать или оставить окно
+            с подтверждением удаления файла.
+          </li>
+          <li>
+            <span class="bold">Format On Save</span> – настройка, отвечающая за
+            автоматическое форматирование кода после сохранения файла. Модуль
+            форматирования должен быть установлен отдельно, например, «Prettier
+            - Code formatter».
+          </li>
+          <li>
+            <span class="bold">Semi</span> – включить / отключить автоматическое
+            добавление ; в конце строи – настройка от «Prettier - Code
+            formatter».
+          </li>
+        </ul>
+        <p>
+          Это далеко не все настройки доступные в VS code и даже пробежаться по
+          всем вскользь будет не так быстро. Для того, чтобы лучше
+          ориентироваться во всем этом многообразии, можно воспользоваться левым
+          меню, которое делит весь список на категории. Настройки чьи дефолтные
+          значения были изменены можно увидеть в формате JSON кликнув на
+          соответствующую иконку.
+        </p>
+        <img src="img/personalize2.jpg" alt="шаг 2" />
+        <p></p>
+      </section>
+      <svg xmlns="http://www.w3.org/2000/svg" style="display: none">
+        <symbol id="arrow-up-short" viewBox="0 0 16 16">
+          <path
+            fill-rule="evenodd"
+            d="M8 12a.5.5 0 0 0 .5-.5V5.707l2.146 2.147a.5.5 0 0 0 .708-.708l-3-3a.5.5 0 0 0-.708 0l-3 3a.5.5 0 1 0 .708.708L7.5 5.707V11.5a.5.5 0 0 0 .5.5z"
+          />
+        </symbol>
+      </svg>
+      <div class="btn-up btn-up_hide">
+        <svg
+          class="btn-up-icon"
+          role="img"
+          aria-label="Прокрутить страницу к началу"
+        >
+          <use xlink:href="#arrow-up-short"></use>
+        </svg>
+      </div>
+      <script src="knopka.js"></script>
+    </div>
+    <footer>
+      <p>© Ермолаев Дмитрий, 2023</p>
+      <a href="inf.html">Источники</a>
+    </footer>
+  </body>
+</html>
